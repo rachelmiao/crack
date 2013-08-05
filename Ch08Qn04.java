@@ -12,10 +12,10 @@ public class Test {
 	}
 
 	// f(hello) = h + f(ello),
-    //   		  e + f(hllo),
-	// 			  l + f(helo),
-	// 			  l + f(helo),
-	// 			  o + f(hell)
+        //            e + f(hllo),
+	// 	      l + f(helo),
+	// 	      l + f(helo),
+	// 	      o + f(hell)
 	static ArrayList<String> permutateStrings(String word) {
 		ArrayList<String> permutations = new ArrayList<String>();
 
